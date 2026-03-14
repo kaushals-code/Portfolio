@@ -16,6 +16,15 @@ const portfolio = {
                 "Android App Development",
                 "Java"
             ]
+        },
+        {
+            name: "Retro Spaceship Shooter Game",
+            about: "Built a face-movement/gestures controlled 2D game to improve accessibility in gaming. Movements controlled by head-tilt and mouth-open detection.",
+            involved: [
+                "React",
+                "Face-mesh",
+                "Mediapipe"
+            ]
         }
     ],
 
@@ -50,7 +59,7 @@ const portfolio = {
 
     achievements: [
         {
-            name: "LeetCode — 240+ Data Structure & Algorithms Problems Solved",
+            name: "LeetCode — 250+ Data Structure & Algorithms Problems Solved",
             about: "",
             involved: [
                 "Python",
