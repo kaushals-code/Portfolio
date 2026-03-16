@@ -2,12 +2,12 @@ import React from "react";
 
 function Languages(props) {
     return (
-        <div class="skill-group">
-            <p class="skill-group-label mono">{props.title}</p>
-            <div class="card-tags">
+        <div className="skill-group">
+            <p className="skill-group-label mono">{props.title}</p>
+            <div className="card-tags">
                 {props.tags.map((tag) => {
                     return (
-                        <span class="tag">{tag}</span>
+                        <span className="tag">{tag}</span>
                     );
                 })}
             </div>
