@@ -1,6 +1,15 @@
 const portfolio = {
     projects: [
         {
+            name: "Chat On Weeknd",
+            about: "A real-time chatting app that hits different — built as a WhatsApp clone with live messaging, instant sync, clean UI, and powered by Firebase.",
+            involved: [
+                "ReactJS",
+                "Js",
+                "Firebase (NoSQL)"
+            ]
+        },
+        {
             name: "Baaki App",
             about: "A minimal app to track debts and loans between friends — because memory is unreliable.",
             involved: [
