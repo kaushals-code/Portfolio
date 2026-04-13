@@ -68,7 +68,7 @@ const portfolio = {
 
     achievements: [
         {
-            name: "LeetCode — 250+ Data Structure & Algorithms Problems Solved",
+            name: "LeetCode — 320+ Data Structure & Algorithms Problems Solved",
             about: "",
             involved: [
                 "Python",
