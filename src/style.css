@@ -294,6 +294,12 @@ body {
 }
 
 /* ── CARDS ── */
+
+a {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
 .card {
   background: var(--surface);
   border: 1px solid var(--border);

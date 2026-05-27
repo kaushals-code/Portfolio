@@ -1,13 +1,24 @@
 const portfolio = {
     projects: [
         {
-            name: "Chat On Weeknd",
-            about: "A real-time chatting app that hits different — built as a WhatsApp clone with live messaging, instant sync, clean UI, and powered by Firebase.",
+            name: "Dawn Food - Backend Only",
+            about: "Developing a complete Backend of a food delivery app.",
             involved: [
-                "ReactJS",
-                "Js",
-                "Firebase (NoSQL)"
-            ]
+                "NodeJs",
+                "ExpressJs",
+                "JWT",
+                "Redis",
+                "PostgreSQL"
+            ],
+        },
+        {
+            name: "Attendance Tracker App",
+            about: "A simple app to record student attendance for Class Representatives",
+            involved: [
+                "Android App Development",
+                "Java"
+            ],
+            link: "https://play.google.com/store/apps/details?id=com.kaushal.attendancetracker"
         },
         {
             name: "Baaki App",
@@ -19,12 +30,14 @@ const portfolio = {
             ]
         },
         {
-            name: "Attendance Tracker App",
-            about: "A simple app to record student attendance for Class Representatives",
+            name: "Chat On Weeknd",
+            about: "A real-time chatting app that hits different — built as a WhatsApp clone with live messaging, instant sync, clean UI, and powered by Firebase.",
             involved: [
-                "Android App Development",
-                "Java"
-            ]
+                "ReactJS",
+                "Js",
+                "Firebase (NoSQL)"
+            ],
+            link: "https://chat-onweeknd.vercel.app/login"
         },
         {
             name: "Retro Spaceship Shooter Game",
@@ -98,12 +111,14 @@ const portfolio = {
         webDev: [
             "ReactJS",
             "NodeJS",
-            "ExpressJS"
+            "JWT",
+            "ExpressJS",
         ],
         databases: [
             "MySQL",
             "PostgreSQL",
-            "SQLite"
+            "SQLite",
+            "Redis"
         ],
         miscellaneous: [
             "Git/GitHub",

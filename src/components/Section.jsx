@@ -8,7 +8,12 @@ function Section() {
             <h2 className="section-title"><span className="mono accent">//</span> Projects</h2>
             {portfolio.projects.map((project) => {
                 return (
-                    <Project title={project.name} description={project.about} tags={project.involved} />
+                    <Project
+                        title={project.name}
+                        description={project.about}
+                        tags={project.involved}
+                        link={project.link}
+                    />
                 );
             })}
         </div>
