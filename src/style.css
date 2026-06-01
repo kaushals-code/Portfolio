@@ -185,6 +185,7 @@ body {
 .sidebar-phone .mono {
   font-size: 14px;
   color: var(--text-subtle);
+  display: none;
 }
 
 /* ── MAIN ── */
